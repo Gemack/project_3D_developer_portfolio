@@ -1,28 +1,15 @@
 import {
-  mobile,
-  backend,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
+  e_plan,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+shopping,
+sentiment,
+  asp,
+  laravel,
+  analysis,
+  gems,
+  admin,
+  ecommerce
 } from "../assets";
 
 export const navLinks = [
@@ -42,193 +29,99 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
+    title: "Frontend Web Developer",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    title: "Backend Developer (API)",
+    icon: asp,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    title: "Fullstack",
+    icon: laravel,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    title: "Research and Data Analysis",
+    icon: analysis,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web Developer Instructor",
+    company_name: "Teen Coders",
+    icon: creator,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "December 2021 - October 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Instruct both international and domestic students on creating a frontend web application with HTML and CSS.",
+      "Provide guidance to foreign and local students on how to learn and use JavaScript and ReactJS.",
+      "Establish an online class through Zoom and monitor the advancement of the students.",
+      "Participating in code reviews with student and providing constructive feedback to supervisor.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Data Analysis (voluntary)",
+    company_name: "NYSC",
+    icon: creator,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "October 2022 - November 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Examine and analyze data gathered from a survey to assess overall viewpoints on the advancement of camping sessions.",
+      "identify any prejudices or tendencies among different groups of individuals at the NYSC Orientation camp.",
+      "Assessing and offering constructive feedback to colleagues and supervisors.",
+     
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Gems",
+    icon: gems,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "November 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Creating and sustaining Gemspay documentation website using Docasaurus with React.js and other relevant technologies.",
+      "Build API using ASP.NET",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Construct a full-stack web portal utilizing Laravel and Tailwind CSS.",
+      "Taking part in code reviews and offering constructive criticism to superiors.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ecommerce Admin Dashboard with Laravel and React",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This project is an admin dashboard for an ecommerce website, comprising features such as admin user management, CRUD operations on ecommerce products, and the ability to create trending products .",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Laravel",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Context api",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: admin,
+    source_code_link: "https://github.com/Gemack/Ecommerce-react-next-laravel",
   },
   {
-    name: "Job IT",
+    name: "Ecommerce web page with React(Next) and Laravel",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An Ecommerce website where user can shop for product, ",
     tags: [
       {
-        name: "react",
+        name: "react and Next",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Laravel",
         color: "green-text-gradient",
       },
       {
@@ -236,16 +129,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ecommerce,
+    source_code_link: "https://github.com/Gemack/Ecommerce-react-next-laravel",
   },
   {
-    name: "Trip Guide",
+    name: "Ecommerce shopping cart",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "an ecommerce shopping cart system using React Reducers that enables users to filter, search, star, select and checkout products. The system  allow users to easily find and sort products based on their preferences, add them to their cart, and proceed to checkout.",
     tags: [
       {
-        name: "nextjs",
+        name: "React Reducer",
         color: "blue-text-gradient",
       },
       {
@@ -257,9 +150,51 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shopping,
+    source_code_link: "https://github.com/Gemack/Online-Sore",
+  },
+  {
+    name: "Sentiment Analysis Using Python",
+    description:"using the Tfidfvectorizer in Sklearn this model classsify reviews in a book review into two category. Good or bad.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sklearn",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jupyter notebook",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sentiment,
+    source_code_link: "https://github.com/Gemack/Sentiment-analysis-with-python-bag-of-words",
+  },
+  {
+    name: "Frontend design using Jquery and AOS",
+    description:"An event planner frontend web page. This web page is built using pure CSS and JavaScript.",
+    tags: [
+      {
+        name: "html css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Jquery",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Animate on Scroll",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: e_plan,
+    source_code_link: "https://github.com/Gemack/Event-planner-website",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services,  experiences,  projects };
+
+

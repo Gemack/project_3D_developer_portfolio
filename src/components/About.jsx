@@ -47,11 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a fullstack developer with experience in PHP, JavaScript, C# and
+        Python, and expertise in frameworks like ReactJS, Laravel, and
+        ASP.NET . I have over four years of  experience, with more than two
+        years  specifically focused on working as a fullstack developer.
+        I have a passion for learning and possess the ability to quickly
+        grasp new concepts.
+        I am dedicated to producing high-quality code and have a keen interest
+        in developing web applications. Additionally, I enjoy conducting research and analyzing business data.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

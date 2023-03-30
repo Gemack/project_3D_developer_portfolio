@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { Typewriter } from "react-simple-typewriter";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -16,11 +16,22 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
+            Hi, I'm <span className='text-[#915EFF]'>Boniface</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+          <Typewriter
+              loop
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={20}
+              delaySpeed={1500}
+              words={[
+                "i do .NET (ASP.NET) using C#",
+                ".php using Laravel (PHP)",
+                "and i use ReactJS (JavaScript) for frontend",
+              ]}
+            />
           </p>
         </div>
       </div>
